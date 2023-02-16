@@ -1,67 +1,35 @@
 local player = game.Players.LocalPlayer
-
 local character = player.Character
-
 local humanoid = character:WaitForChild("Humanoid")
-
 local chat = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
 
 chat.OnClientEvent:Connect(function(player, message, channel)
-
   if message == "Kenzie you are amazing" and player.Name == "bunnyswopper12" then
-
     wait(3)
-
     chat:FireServer("awww", "All")
-
   end
-
   if message == "my life is now better, you fixed my past and will be my future" and player.Name == "bunnyswopper12" then
-
     wait(3)
-
     chat:FireServer("😍", "All")
-
   end
-
   if message == "I know we haven't been together long but I think I want to spend my life with you" and player.Name == "bunnyswopper12" then
-
     wait(3)
-
     chat:FireServer("starts freaking out", "All")
-
   end
-
   if message == "I know this is a Roblox game, but you are beautiful and kind and just perfect and I.." and player.Name == "bunnyswopper12" then
-
     wait(3)
-
     chat:FireServer("are you saying what I think you are going to say", "All")
-
   end
-
   if message == "Kenzie will you marry me and be mine forever 💐" and player.Name == "bunnyswopper12" then
-
     wait(3)
-
     chat:FireServer("yes of course I will, I want to be with you forever and ever", "All")
-
   end
-
   if message == "gets on my knee's" and player.Name == "bunnyswopper12" then
-
     wait(3)
-
     chat:FireServer("puts out my finger", "All")
-
   end
-
-  if message == "Mwa.. Ly .. and you always will belong to me" and player.Name == "bunnyswopper12" then
-
+  if message == "Puts ring on finger ..mwa.. Ly ..and you will always belong to me" and player.Name == "bunnyswopper12" then
     wait(3)
-
     chat:FireServer("Mwa.. Ly to.. and yes daddy I'm all yours", "All")
-
   end
-
 end)
